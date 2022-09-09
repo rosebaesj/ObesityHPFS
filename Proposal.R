@@ -498,7 +498,7 @@ for (a in 1:length(pcl_file)){
   addsamp = c('sample', tempcol)
   foo = tempdf [ , addsamp]
   # write table
-  write.table(foo, paste('./noGit/maaslin2/pcl/', pcl_file[a], '.pcl',sep=''),  sep = '\t', quote = F, eol = '\n',  row.names=F)
+  write.table(foo, paste('./maaslin2/pcl/', pcl_file[a], '.pcl',sep=''),  sep = '\t', quote = F, eol = '\n',  row.names=F)
 } 
 
 ## Done preparing for analyses
